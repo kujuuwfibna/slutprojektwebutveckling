@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Create source element
     const sourceElement = document.createElement('source');
-    sourceElement.src = '/media/Tennis  FX3  Cinematic Short Promo - flocktoflash (1080p, h264).mp4';
+    sourceElement.src = '/slutprojektwebutveckling//media/Tennis  FX3  Cinematic Short Promo - flocktoflash (1080p, h264).mp4';
     sourceElement.type = 'video/mp4';
 
     // Append source to video
