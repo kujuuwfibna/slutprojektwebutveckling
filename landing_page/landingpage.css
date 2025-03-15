@@ -37,6 +37,11 @@
     align-items: center;
 }
 
+.menu-text {
+    font-size: 1.5rem;
+
+}
+
 .nav-links a {
     color: #333;
     text-decoration: none;
@@ -184,6 +189,7 @@
 
     .nav-links {
         gap: 0.3rem;
+
     }
 
     .history-container {
