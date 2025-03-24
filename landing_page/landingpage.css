@@ -301,7 +301,7 @@
     margin-bottom: 15px;
 }
 
-/* Product Button */
+
 .product-button {
     display: inline-block;
     padding: 8px 16px;
@@ -368,6 +368,8 @@
     border-top: 1px solid #ddd;
     color: #666;
 }
+
+
 
 @media (max-width: 394px) {
     .logo {
