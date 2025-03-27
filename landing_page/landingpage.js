@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Append source to video
     videoElement.appendChild(sourceElement);
 
-    // Insert video at the beginning of hero section
+    // Inserts video at the beginning of hero section
     heroSection.insertBefore(videoElement, heroSection.firstChild);
 });
