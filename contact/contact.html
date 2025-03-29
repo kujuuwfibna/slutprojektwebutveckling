@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/slutprojektwebutveckling/media/tennisball_logo.png">
+    <link rel="stylesheet" href="/slutprojektwebutveckling/landing_page/index.css">
+    <link rel="stylesheet" href="/slutprojektwebutveckling/contact/contact.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="/slutprojektwebutveckling/landing_page/landingpage.html" class="logo">
+                <span> <img class="logo-icon" src="/slutprojektwebutveckling/media/tennisball_logo.png"
+                        alt="logo"></span>
+                Top Spin
+            </a>
+            <div class="nav-links">
+                <a class="menu-text" href="/slutprojektwebutveckling/landing_page/index.html">Home</a>
+                <a class="menu-text" href="/slutprojektwebutveckling/Products/products.html">Products</a>
+                <a class="menu-text" href="/slutprojektwebutveckling/aboutus/aboutus.html">About</a>
+                <a class="menu-text" href="/slutprojektwebutveckling/contact/contact.html">Contact</a>
+
+            </div>
+        </nav>
+    </header>
+    <!---Label,input,type both learned from W3 schools and developer.mozilla.org!-->
+
+    <!--The label argument makes an interactive box similair to a button -->
+    <!--The input argument defines what type of "box" it will be, for this instance a textbox! :))-->
+    <!--The type argument defines the kind of input field! In this code im using submit multiple times-->
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title">Contact Us</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Top Spin</h3>
+                <p>Professional coaching, premium equipment, and world-class facilities for tennis enthusiasts.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/slutprojektwebutveckling/landing_page/index.html">Home</a></li>
+                    <li><a href="/slutprojektwebutveckling/Products/products.html">Products</a></li>
+                    <li><a href="/slutprojektwebutveckling/aboutus/aboutus.html">About</a></li>
+                    <li><a href="/slutprojektwebutveckling/contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>123 Tennis Court Lane</li>
+                    <li>New York, NY 10001</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Email: info@topspin.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Top Spin. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

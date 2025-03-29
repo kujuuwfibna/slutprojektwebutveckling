@@ -219,15 +219,19 @@ body {
     scrollbar-color: #28a745 #f0f0f0;
 }
 
+/*Code learnt and taken inspiration from: developer.mozilla.org*/
+/*Specifies the height of the horizontal scrollbar.*/
 .products-container::-webkit-scrollbar {
     height: 8px;
 }
 
+/*Sets the background color of the scrollbar track.*/
 .products-container::-webkit-scrollbar-track {
     background: #f0f0f0;
     border-radius: 4px;
 }
 
+/*Styles the scrollbar thumb with the given color*/
 .products-container::-webkit-scrollbar-thumb {
     background-color: #28a745;
     border-radius: 4px;
