@@ -216,11 +216,3 @@ depending on the width of the container.*/
     color: #666;
 
 }
-
-@media (max-width: 393px) {
-    #h9 {
-        font-size: 0;
-    }
-
-
-}
