@@ -17,6 +17,7 @@ body {
     box-sizing: border-box;
 }
 
+/*navbar styles*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -209,6 +210,8 @@ body {
     color: #333;
 }
 
+/*scrollbar is pretty explanatory, makes the width thin and decides the color
+Learnt from developer.mozilla.org*/
 .products-container {
     display: flex;
     overflow-x: auto;
